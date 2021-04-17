@@ -21,4 +21,32 @@ myarray.push(4)
 myarray.push('Fer')
 myarray.push(false)
 myarray[3] = 'Zapato'
+
 console.log(myarray)
+
+//Eliminar un elemento de un arreglo
+myarray.pop()
+console.log(myarray);
+
+console.log(myarray.push(2));
+console.log(myarray.pop());
+
+console.log(myarray);
+
+//Sacar un elemento al principio del arreglo
+
+myarray.shift();
+console.log(myarray )
+console.log(myarray.shift());
+console.log(myarray.shift());
+console.log(myarray.shift());
+console.log(myarray.shift());
+console.log(myarray.shift());
+
+myarray.unshift('Clase')
+console.log(myarray);
+
+
+//Ejercicio resolver esto 
+//[4,6,8,5,3]
+//[3,3,5,8,6]
