@@ -11,15 +11,15 @@ var persona = {
 persona.edad = 60;
 persona["Salario"] = 100000;
 
-console.log(persona.apellido);
-console.log(myObj.caja);
-console.log(myArr[0]);
+//console.log(persona.apellido);
+//console.log(myObj);
+//console.log(myArr);
 
 for(var miembro in persona){
     if(persona.hasOwnProperty(miembro)) {
-        console.log("El " +miembro + ' de la persona es '+persona[miembro])
+      //  console.log("El " +miembro + ' de la persona es '+persona[miembro])
     }
-    console.log(miembro);
+   //S console.log(miembro);
 }
 
 // Declarar constantes
@@ -28,7 +28,7 @@ var msPerDay = 24*60*60*1000;
 
 console.log(msPerDay);
 
-const julio172014 = new Date (msPerDay + (44 +365 + 11 + 197));
+const julio172014 = new Date (msPerDay + (44 +365 + 07 + 197));
 const otroDia = new Date (2019,11,24,0,0,0,0);
 
 console.log(julio172014)

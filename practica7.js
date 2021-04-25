@@ -16,7 +16,7 @@ var ferr = new Car('Ferrari', 'F40', 'Rojo', '1990');
 
 //console.log(seat,mazda,meche,ferr);
 
-function cliente(nombre, edad, genero,tarjeta, status){
+function Cliente(nombre, edad, genero,tarjeta, status){
     this.nombre = nombre;
     this.edad = edad; 
     this.genero = genero;
